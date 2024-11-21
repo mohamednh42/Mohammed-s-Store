@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ins{
+            color: red;
+            text-shadow: none;
+        }
+        h3{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            font-weight: 600;
+            text-shadow: -4px 4px 0  rgba(129, 121, 121, 0.3);
+        }
+        img{
+            width: 250px;
+            direction: rtl;
+        }
+        #d1 div{
+            width: 450px;
+            border: 1px solid gray;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 1px 1px 12px gray;
+        }
+        #d1{
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            grid-template-rows: repeat(5,auto);
+            row-gap: 25px;
+        }
+        p{
+            text-align: left;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        span{
+            margin-left: 5px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 40px;
+            color: blue;
+            text-shadow: -4px 4px 0 rgba(129, 121, 121, 0.3); 
+        }
+        .d:hover{
+            transform: translateX(10px) rotateX(10deg);
+            transition: transform .5s;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div class="d">
+            <center>
+                <h3>Samsung Galaxy S24 Ultra</h3>
+                <img src="pictures/Pictures_Phones/Android/Samsung Galaxy S24 Ultra.webp" title="يتميز بكاميرا متقدمة للغاية وشاشة ديناميكية AMOLED 2X">
+                <p>
+                    <span>Price:</span>  <ins>1200$</ins><br>
+                    <span>Display:</span>  Dynamic AMOLED 2X, 120Hz, QHD+<br>
+                    <span>CPU:</span>  Snapdragon 8 Gen 2 for Galaxy<br>
+                    <span>Camera:</span>  Multi-lens system,high-resolution,night mode, zoom.<br>
+                    <span>Storage:</span>  Ample storage, microSD support<br>
+                    <span>System:</span>  Android 14, One UI<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Google Pixel 8 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Google-Pixel-8-Pro-3.jpg" title="يوفر تجربة أندرويد نقية وكاميرا ممتازة بمعالج الصور Tensor G3">
+                <p>
+                    <span>Price:</span><ins>800$</ins><br>
+                    <span>Display:</span>OLED, 120Hz, QHD+, HDR<br>
+                    <span>CPU:</span>Google Tensor G2<br>
+                    <span>Camera:</span>Multi-lens system,computational photography, natural image quality.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>Android 14, stock Android<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Xiaomi 13 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Xiaomi-13-Pro-1.jpg" title="يقدم تصميمًا أنيقًا وأداءً قويًا بفضل معالج Snapdragon 8 Gen 2">
+                <p>
+                    <span>Price:</span><ins>700$</ins><br>
+                    <span>Display:</span>LTPO AMOLED, 120Hz, QHD+<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 2<br>
+                    <span>Camera:</span>Multi-lens system,periscope lens, large sensor.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>MIUI 14 based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Oppo Find X6 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Oppo-Find-X6-Pro.webp" title="يتميز بشاشة منحنية رائعة وكاميرا بتقريب بصري هائل">
+                <p>
+                    <span>Price:</span><ins>780$</ins><br>
+                    <span>Display:</span>LTPO AMOLED, 120Hz, QHD+<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 2<br>
+                    <span>Camera:</span>Multi-lens system,ultrawide,low-light performance.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>ColorOS 13 based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>OnePlus 11 5G</h3>
+                <img src="pictures/Pictures_Phones/Android/OnePlus 11 5G.png" title="يوفر تجربة سلسة وسريعة بفضل معالج Snapdragon 8 Gen 2">
+                <p>
+                    <span>Price:</span><ins>500$</ins><br>
+                    <span>Display:</span>LTPO AMOLED, 120Hz, QHD+<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 1<br>
+                    <span>Camera:</span>Multi-lens system,high-resolution main,video improvements.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>OxygenOS 13 based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Realme GT Neo5</h3>
+                <img src="pictures/Pictures_Phones/Android/Realme-GT-Neo5.webp" title="هاتف متوسط المدى قوي بمعالج Dimensity 8200">
+                <p>
+                    <span>Price:</span><ins>670$</ins><br>
+                    <span>Display:</span>AMOLED, 120Hz, FHD+<br>
+                    <span>CPU:</span>Dimensity 8100-Max<br>
+                    <span>Camera:</span>Multi-lens system,high-resolution main,fast photography.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>Realme UI 4.0 based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Motorola Edge 40 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Motorola Edge 40 Pro.webp" title="يتميز بشاشة OLED بتردد تحديث عالي وكاميرا بدقة 50 ميجابكسل">
+                <p>
+                    <span>Price:</span><ins>235$</ins><br>
+                    <span>Display:</span>OLED, 165Hz, FHD+<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 2<br>
+                    <span>Camera:</span>Multi-lens system,ultrawide,excellent stabilization.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>MyUX based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Honor Magic 5 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Honor Magic 5 Pro.webp" title="يقدم تصميمًا أنيقًا وشاشة OLED منحنية">
+                <p>
+                    <span>Price:</span><ins>425$</ins><br>
+                    <span>Display:</span>LTPO AMOLED, 120Hz, QHD+<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 2<br>
+                    <span>Camera:</span>Multi-lens system, periscope lens,large sensor.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>MagicOS 7.1 based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Vivo X90 Pro</h3>
+                <img src="pictures/Pictures_Phones/Android/Vivo X90 Pro.webp" title="يتميز بكاميرا Zeiss متقدمة وشاشة AMOLED رائعة">
+                <p>
+                    <span>Price:</span><ins>550$</ins><br>
+                    <span>Display:</span>E6 AMOLED, 120Hz, QHD+<br>
+                    <span>CPU:</span>Dimensity 9200<br>
+                    <span>Camera:</span>Multi-lens system,high-resolution main, night mode.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>OriginOS Ocean based on Android 13<br>
+                </p>
+            </center>
+        </div>
+        <div class="d">
+            <center>
+                <h3>Sony Xperia 1 Mark V</h3>
+                <img src="pictures/Pictures_Phones/Android/Sony Xperia 1 Mark V.jpg" title="يركز على جودة الكاميرا والتصوير الفوتوغرافي الاحترافي">
+                <p>
+                    <span>Price:</span><ins>699$</ins><br>
+                    <span>Display:</span>OLED 4K, 120Hz, 21:9<br>
+                    <span>CPU:</span>Snapdragon 8 Gen 2<br>
+                    <span>Camera:</span>Multi-lens system, periscope lens,video quality.<br>
+                    <span>Storage:</span>Ample storage, no microSD<br>
+                    <span>System:</span>Xperia UI based on Android 13<br>
+                </p>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

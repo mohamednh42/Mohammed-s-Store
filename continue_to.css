@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 150px auto 50px;
+    grid-template-areas: "logo1 logo1 nav nav nav nav nav nav logo2 logo2"
+                         "logo1 logo1 cont cont cont cont cont cont logo2 logo2"
+                         "foot foot foot foot foot foot foot foot foot foot";
+}
+h1{
+    grid-area: logo1;
+}
+h2{
+    grid-area: logo2;
+}
+.img_section{
+    width: 200px;
+    margin-left: 100px;
+}
+.img_College{
+    margin-top: 50px;
+    width: 170px;
+}
+nav{
+    grid-area: nav;
+    font-size: 25px;
+    font-weight: 500px;
+    margin-top: 30px;
+    direction: ltr;
+    text-align: center;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    grid-area: cont;
+    font-size: 25px;
+    margin-top: 30px;
+    direction: ltr;
+    text-align: center;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 70px;
+}
+span{
+    color: blue;
+    font-size: 35px;
+}
+.title-website{
+    color: red;
+}
+footer{
+    grid-area: foot;
+}
+.p1{
+    position: absolute;
+    left: 250px;
+    font-size: 30px;
+}
+.p2{
+    position: absolute;
+    right: 250px;
+    font-size: 30px;
+}
